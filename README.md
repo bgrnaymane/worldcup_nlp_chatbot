@@ -17,7 +17,7 @@ Für die Sportart Fußball soll ein Nutzer die Möglichkeit haben, sich auf Engl
 ## Ausführen des Chatbots
 1. Klonen des Repositories
 
-```git clone https://github.com/bnnlukas/NLP-Projekt.git```
+```git clone https://github.com/bgrnaymane/NLP-Projekt.git```
 
 2. Ausführen folgender Befehle:
 
