@@ -1,30 +1,5 @@
 # Entwicklung eines Chatbots für Themen rund um die Fußball Weltmeisterschaften
-Ein Projekt im Modul Aktuelle Data Science Entwicklungen - Natural Language Processing (WWI20DSA) mit den Teilnehmern und den erledigten Aufgaben:
-- Lukas
-  - Websiteentwicklung, inkl. Zusammenführen der NLP-Pipeline und verbinden mit den Chatboteingaben
-  - NER-Analyse, um auf Basis eines erkannten Intents die korrekten Daten aus den CSV-Files einzulesen und in Form einer Antwort an den Chatbot zu übergeben (inkl. Einsatz der Numerizerextension)
-    - Einsatz eines Replace-Dictionaries, um Eingabevariationen des Users in für die NER verständliche Sprache umzuwandeln
-  - Evaluation des SVClassifiers mithilfe einer Confusion Matrix, um die Qualität der Intentdetection zu messen
-  - Exportieren des Vectorizers und des SVClassifiers als Pickle-File, um die Antwortgeschwindigkeit zu verbessern und das Modell nur beim Neuladen der Website neu zu trainieren
-
-- Aymane 
-  - Allgemeine Recherche zum Aufbau eines NLP-Chatbots und der Entwicklung der NLP-Pipeline
-  - Mithilfe bei der Erstellung der selbsterstellten Trainingsdaten 
-  - Entwurf und Design eines blueprint und anschließende Entwicklung eines Beispiel Frontend (Layout)
-- Jasmina 
-  - Überarbeitung und Erstellung von Intents, inklusive passender Antworten. Dabei lag der Fokus vor allem auf allgemeinen Intents, um dem Chatbot Charakter zu verleihen. 
-   - Initialisierung der Named Entitity Recognition, anfänglich um beispielsweise Vereine als Organisationen zu markieren, Vorbereitung für weitere Nutzung. (nicht mehr verwendet)
-  - Erstellung von weiteren Testdaten, um die Datengrundlage zu erweitern und so die Performance zu verbessern.
-  - Sicherstellung passender Vorverarbeitungsschritte.
-  
-- Pascal 
-  - Recherche und Testing verschiedener Intentanalysis Ansätze, mitunter mit BERT (nicht mehr verwendet)
-  - Erstellung der Trainingsdaten auf Basis selbst geschriebener Nutzereingaben und Kategorien 
-  - Entwicklung des Preprocessing vom Textinput für die Verwendung von SVC, W2V und Tf-idf
-  - Entwicklung des Intent Detectors auf Basis eines Support Vector Classifiers, Word2Vec und Tf-idf und abschließendem Gridsearch und k-fold tuning mithilfe der u.g. Quellen. 
-  - Entwicklung der Evaluierungsmethode für den Classifier
-  
-  
+Ein Projekt im Modul Aktuelle Data Science Entwicklungen - Natural Language Processing (WWI20DSA).
 
 ## Idee
 Für die Sportart Fußball soll ein Nutzer die Möglichkeit haben, sich auf Englisch über den Chatbot verschiedene Informationen zu den FIFA Weltmeisterschaften anzeigen lassen zu können.  
